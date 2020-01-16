@@ -1,0 +1,118 @@
+/*font-family: 'Fira Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+    background-image: url("../img/bg/bg-lines.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: initial;
+    font-family: sans-serif;
+}
+.container{
+width: auto;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+@media screen and (min-width: 1254px){
+    .container{
+        width: 1224px;
+padding-left: 0;
+padding-top: 0;
+margin-left: auto;
+margin-right: auto;
+    }
+}
+
+
+.relative{
+  position: relative;
+
+}
+
+.nav-logo-wrapper{
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1254px){
+.nav-logo-wrapper{
+    margin-right: 190px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: auto;
+}
+.navigation-wrapper{
+    display: flex;
+        flex-direction: row;
+        height: 128px;
+        align-items: center;
+}
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navigation{
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+width: 100%;
+}
+@media screen and (min-width: 768px){
+    .navigation{
+        flex-direction: row;
+        justify-content: center;
+    
+}
+}
+@media screen and (min-width: 1254px){
+    .navigation{
+        flex-direction: row;
+        justify-content: flex-start;
+        width: auto;
+    }
+    }
+
+.navigation__item{
+text-align: center;
+margin-bottom: 15px;
+
+}
+.navigation__item:last-child{
+    margin-bottom: 0;
+}
+@media screen and (min-width: 768px){
+    .navigation__item{
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+    .navigation__item:last-child{
+        margin-right: 0;
+    }
+}
+.navigation__link{
+    color: rgba(11, 12, 17, 0.9);
+    font-family: 'League-Spartan',sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1px;
+    text-transform: uppercase;
+    letter-spacing: 5.58px;
+    text-decoration: none;
+}
